@@ -42,11 +42,17 @@ public class BeerController {
 
     //http://localhost:8080/api/v1/beer/e45e15d0-a31a-4bca-b376-b559e8de7bc8
     @PutMapping({"/{beerId}"})
-    public ResponseEntity handleUpdate(@PathVariable("beerId") UUID beerId, @RequestBody BeerDto beerDto){
+    public ResponseEntity<BeerDto> handleUpdate(@PathVariable("beerId") UUID beerId, @RequestBody BeerDto beerDto){
         beerService.updateBeer(beerId, beerDto);
         log.info("Put is called");
         log.info("{}\t{}",beerId,beerDto);
-        return new ResponseEntity<>(beerService.getBeerByID(beerId),HttpStatus.NO_CONTENT);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 
+    }
+    @DeleteMapping({"/{beerId}"})
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteBeer(@PathVariable("beerId") UUID beerId){
+        log.info("Delete is called==>"+beerId);
+        beerService.deleteById(beerId);
     }
 }

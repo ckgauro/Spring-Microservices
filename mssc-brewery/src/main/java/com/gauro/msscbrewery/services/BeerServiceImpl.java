@@ -1,6 +1,7 @@
 package com.gauro.msscbrewery.services;
 
 import com.gauro.msscbrewery.web.model.BeerDto;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -8,6 +9,7 @@ import java.util.UUID;
 /**
  * @author Chandra
  */
+@Slf4j
 @Service
 public class BeerServiceImpl implements BeerService {
     @Override
@@ -29,5 +31,12 @@ public class BeerServiceImpl implements BeerService {
     @Override
     public void updateBeer(UUID beerId, BeerDto beerDto) {
         //todo impl - would add a real impl to update beer
+        log.debug("Deleting a beer...");
+
+    }
+
+    @Override
+    public void deleteById(UUID beerId) {
+
     }
 }

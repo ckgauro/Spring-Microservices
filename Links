@@ -1,7 +1,7 @@
 --POST --Done
 https://github.com/springframeworkguru/mssc-brewery/tree/http-post/src/main/java/guru/springframework/msscbrewery
 
---PUT
+--PUT --done
 https://github.com/springframeworkguru/mssc-brewery/tree/http-put
 
 --Request Body Annotation
@@ -28,3 +28,9 @@ https://github.com/springframeworkguru/mssc-beer-service
 Lect 41
 https://sfg-beer-works.github.io/brewery-api/#tag/Beer-Service/paths/~1api~1v1~1beer~1{beerId}/get
 https://github.com/springframeworkguru/mssc-beer-service
+
+
+===================
+
+Lect 46
+https://github.com/springframeworkguru/mssc-brewery-client/tree/http-get
