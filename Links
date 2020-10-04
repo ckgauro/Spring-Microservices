@@ -1,4 +1,4 @@
---POST
+--POST --Done
 https://github.com/springframeworkguru/mssc-brewery/tree/http-post/src/main/java/guru/springframework/msscbrewery
 
 --PUT
