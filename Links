@@ -1,0 +1,30 @@
+--POST
+https://github.com/springframeworkguru/mssc-brewery/tree/http-post/src/main/java/guru/springframework/msscbrewery
+
+--PUT
+https://github.com/springframeworkguru/mssc-brewery/tree/http-put
+
+--Request Body Annotation
+https://github.com/springframeworkguru/mssc-brewery/tree/request-mapping
+
+
+--Delete
+https://github.com/springframeworkguru/mssc-brewery/tree/http-delete
+
+
+--Lect 39 API version Example
+https://github.com/springframeworkguru/mssc-brewery/tree/beer-api-v2
+
+
+--lect 40
+https://github.com/lyndseypadget/semflow
+
+
+Lect 40 
+
+https://github.com/springframeworkguru/mssc-beer-service
+
+
+Lect 41
+https://sfg-beer-works.github.io/brewery-api/#tag/Beer-Service/paths/~1api~1v1~1beer~1{beerId}/get
+https://github.com/springframeworkguru/mssc-beer-service
