@@ -29,6 +29,7 @@ public class BeerController {
     public ResponseEntity<BeerDto> getBeer(@PathVariable("beerId")UUID beerId){
         return new ResponseEntity<>(beerService.getBeerByID(beerId), HttpStatus.OK);
     }
+    //http://localhost:8080/api/v1/beer
     @PostMapping(consumes = "application/json")
     public ResponseEntity<BeerDto> handlePost(@RequestBody BeerDto beerDto){
         log.info("BeerDto is called -->"+beerDto);
@@ -39,11 +40,13 @@ public class BeerController {
         return new ResponseEntity<>(headers,HttpStatus.CREATED);
     }
 
+    //http://localhost:8080/api/v1/beer/e45e15d0-a31a-4bca-b376-b559e8de7bc8
     @PutMapping({"/{beerId}"})
-    public ResponseEntity handleUpdate(@PathVariable("beerId") UUID beerId,@RequestBody BeerDto beerDto){
+    public ResponseEntity handleUpdate(@PathVariable("beerId") UUID beerId, @RequestBody BeerDto beerDto){
         beerService.updateBeer(beerId, beerDto);
-
-        return new ResponseEntity<>((HttpStatus.NO_CONTENT));
+        log.info("Put is called");
+        log.info("{}\t{}",beerId,beerDto);
+        return new ResponseEntity<>(beerService.getBeerByID(beerId),HttpStatus.NO_CONTENT);
 
     }
 }
