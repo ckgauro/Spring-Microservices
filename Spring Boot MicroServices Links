@@ -1,0 +1,38 @@
+https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru
+
+--POST --Done
+https://github.com/springframeworkguru/mssc-brewery/tree/http-post/src/main/java/guru/springframework/msscbrewery
+
+--PUT --done
+https://github.com/springframeworkguru/mssc-brewery/tree/http-put
+
+--Request Body Annotation
+https://github.com/springframeworkguru/mssc-brewery/tree/request-mapping
+
+
+--Delete
+https://github.com/springframeworkguru/mssc-brewery/tree/http-delete
+
+
+--Lect 39 API version Example ---Done
+https://github.com/springframeworkguru/mssc-brewery/tree/beer-api-v2
+
+
+--lect 40
+https://github.com/lyndseypadget/semflow
+
+
+Lect 40 --Done
+
+https://github.com/springframeworkguru/mssc-beer-service
+
+
+Lect 41 --Ongoing
+https://sfg-beer-works.github.io/brewery-api/#tag/Beer-Service/paths/~1api~1v1~1beer~1{beerId}/get
+https://github.com/springframeworkguru/mssc-beer-service
+
+
+===================
+
+Lect 46
+https://github.com/springframeworkguru/mssc-brewery-client/tree/http-get
