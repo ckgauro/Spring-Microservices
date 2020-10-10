@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.springframework.msscbeerservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class MsscBeerServiceApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }
