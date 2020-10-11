@@ -1,0 +1,203 @@
+https://github.com/in28minutes/spring-boot-master-class
+
+Lect 9 
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step01.md
+
+start.spring.io
+add dependencies 
+dev and web
+
+----------------
+
+Lect 10
+--Nothing to do
+
+
+---------------
+Lect 11
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step02.md
+
+
+LoginController --- (controller)
+application.properties--- modify
+
+********
+@Controller
+public class LoginController {
+
+    @RequestMapping(value = "/login")
+    @ResponseBody
+    public String sayHello() {
+        return "Hello World dummy";
+    }
+
+}
+***************
+
+---------------
+Lect 13
+
+Check in browser network
+
+----------
+
+Lect 14
+click on parent of POM of 
+
+[Revise video ]
+
+----------
+
+Lect 15
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step04.md
+Create folder
+/src/main/webapp/WEB-INF/jsp/login.jsp
+create login.jsp
+
+src/main/resources/application.properties --->modify
+
+add in pom file
+********
+<dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
+        </dependency>		
+    *****
+    and restart and run
+    
+    localhost:8080/login
+    
+    -------------------
+    
+Lect     16
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step05.md
+
+ localhost:8080/login?name=Ram
+ 
+ src/main/java/com/in28minutes/springboot/web/controller/LoginController.java
+ src/main/webapp/WEB-INF/jsp/login.jsp
+
+------------
+
+Lect 17
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step06.md
+DispatcherServlet receives HTTP Request.
+
+---------
+
+Lect 18
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step07.md
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step07.zip
+
+ localhost:8080/login
+ 
+src/main/java/com/in28minutes/springboot/web/controller/LoginController.java
+src/main/webapp/WEB-INF/jsp/login.jsp
+src/main/webapp/WEB-INF/jsp/welcome.jsp
+
+
+check in network > Params values
+
+---------
+
+Lect 19
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step08.zip
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step08.md
+
+src/main/java/com/in28minutes/springboot/web/controller/LoginController.java
+src/main/java/com/in28minutes/springboot/web/service/LoginService.java
+src/main/webapp/WEB-INF/jsp/login.jsp
+
+
+
+-------------------------------------------
+Lect 20
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step09.md
+Autowired, @Component, @Service, @Repository, @Controller, @componenetScan
+
+
+
+-----------
+
+Lect 21
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step10.md
+
+ /src/main/java/com/in28minutes/springboot/web/model/Todo.java
+ 
+  /src/main/java/com/in28minutes/springboot/web/service/TodoService.java
+  
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/src/main/webapp/WEB-INF/jsp/todo.jsp
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/src/main/webapp/WEB-INF/jsp/welcome.jsp
+
+
+Localhost:8080/login
+
+*******
+@RequestMapping(value = "/list-todos", method = RequestMethod.GET)
+	public String showTodos(ModelMap model) {
+		String name = getLoggedInUserName(model);
+		model.put("todos", repository.findByUser(name));
+		//model.put("todos", service.retrieveTodos(name));
+		return "list-todos";
+	}
+    ***********
+    
+    if error view video follows following
+  https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step12.md  
+ 
+ -------------------
+Lect 23
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step12.md
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step12.zip
+
+revise video
+
+src/main/java/com/in28minutes/springboot/web/controller/LoginController.java
+
+src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
+
+
+----------------
+Lect 24
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step13.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
