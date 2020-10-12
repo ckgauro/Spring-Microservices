@@ -1,4 +1,4 @@
-package com.gauro.springExampleinIn28minutes.controller;
+package com.gauro.springExampleinIn28minutes.web.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,13 +8,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.gauro.springExampleinIn28minutes.services.LoginService;
+import com.gauro.springExampleinIn28minutes.web.services.LoginService;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.log4j.Logger;
 @Slf4j
 @Controller
+@SessionAttributes("name")
 public class LoginController {
 	final static Logger logger = Logger.getLogger(LoginController.class);
 	
@@ -27,7 +29,9 @@ public class LoginController {
 //	}
 
 	@RequestMapping(value="/login", method = RequestMethod.GET)
-	public String showLoginPage(){		
+	public String showLoginPage(){	
+		
+		
 		
 		return "login";
 	}
@@ -36,10 +40,12 @@ public class LoginController {
 	public String handleLogin(ModelMap model, @RequestParam String name, @RequestParam String password) {
 		logger.info("handleLogin=====>");
 		if(! loginService.validateUser(name,password)) {
+			model.put("errorMessage", "Invalid user "+name);
 			return "login";
 		}
 		
 		model.put("name", name);
+		model.put("password", password);
 		return "welcome";
 		
 	}
