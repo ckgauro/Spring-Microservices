@@ -39,6 +39,7 @@ public class LoginController {
 	@RequestMapping(value="/login", method = RequestMethod.POST)
 	public String handleLogin(ModelMap model, @RequestParam String name, @RequestParam String password) {
 		logger.info("handleLogin=====>");
+		log.info("Testing ----");
 		if(! loginService.validateUser(name,password)) {
 			model.put("errorMessage", "Invalid user "+name);
 			return "login";
