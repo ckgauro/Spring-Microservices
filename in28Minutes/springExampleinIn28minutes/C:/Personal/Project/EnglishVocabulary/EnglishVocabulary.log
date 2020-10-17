@@ -1,0 +1,52 @@
+2020-10-12 10:12:54 INFO  LoginController:27 - Data*********
+2020-10-12 10:13:27 INFO  LoginController:27 - Data*********
+2020-10-12 11:34:02 INFO  LoginController:34 - handleLogin=====>
+2020-10-12 11:36:37 INFO  LoginController:37 - handleLogin=====>
+2020-10-12 11:36:47 INFO  LoginController:37 - handleLogin=====>
+2020-10-12 11:36:57 INFO  LoginController:37 - handleLogin=====>
+2020-10-12 12:00:25 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:00:35 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:00:36 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:00:37 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:00:37 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:01:01 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:01:10 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:01:38 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:12:50 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:12:57 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:13:43 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:15:54 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:16:30 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:18:26 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:19:23 INFO  TodoController:24 - Name of user null=====>
+2020-10-12 12:20:26 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:20:34 INFO  TodoController:23 - {}
+2020-10-12 12:20:34 INFO  TodoController:25 - Name of user null=====>
+2020-10-12 12:23:44 INFO  LoginController:39 - handleLogin=====>
+2020-10-12 12:23:49 INFO  TodoController:23 - {}
+2020-10-12 12:23:49 INFO  TodoController:25 - Name of user null=====>
+2020-10-12 12:27:13 INFO  LoginController:41 - handleLogin=====>
+2020-10-12 12:27:15 INFO  TodoController:23 - {name=chandra}
+2020-10-12 12:27:15 INFO  TodoController:25 - Name of user chandra=====>
+2020-10-12 12:49:24 INFO  TodoController:26 - {}
+2020-10-12 12:49:24 INFO  TodoController:28 - Name of user null=====>
+2020-10-12 12:49:41 INFO  LoginController:41 - handleLogin=====>
+2020-10-12 12:49:44 INFO  TodoController:26 - {}
+2020-10-12 12:49:44 INFO  TodoController:28 - Name of user null=====>
+2020-10-12 12:50:01 INFO  LoginController:41 - handleLogin=====>
+2020-10-12 12:50:04 INFO  TodoController:26 - {name=chandra}
+2020-10-12 12:50:04 INFO  TodoController:28 - Name of user chandra=====>
+2020-10-12 12:58:54 INFO  TodoController:26 - {name=chandra}
+2020-10-12 12:58:54 INFO  TodoController:28 - Name of user chandra=====>
+2020-10-12 12:59:18 INFO  TodoController:26 - {name=chandra}
+2020-10-12 12:59:18 INFO  TodoController:28 - Name of user chandra=====>
+2020-10-12 12:59:22 INFO  TodoController:26 - {name=chandra}
+2020-10-12 12:59:22 INFO  TodoController:28 - Name of user chandra=====>
+2020-10-12 12:59:37 INFO  TodoController:26 - {name=chandra}
+2020-10-12 12:59:37 INFO  TodoController:28 - Name of user chandra=====>
+2020-10-12 13:00:16 INFO  TodoController:26 - {name=chandra}
+2020-10-12 13:00:16 INFO  TodoController:28 - Name of user chandra=====>
+2020-10-12 13:00:23 INFO  TodoController:26 - {name=chandra}
+2020-10-12 13:00:23 INFO  TodoController:28 - Name of user chandra=====>
+2020-10-12 13:00:29 INFO  TodoController:26 - {name=chandra}
+2020-10-12 13:00:29 INFO  TodoController:28 - Name of user chandra=====>

@@ -48,7 +48,7 @@ click on parent of POM of
 
 ----------
 
-Lect 15   ---ongoing
+Lect 15   ---done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step04.md
 Create folder
@@ -71,7 +71,7 @@ add in pom file
     
     -------------------
     
-Lect     16
+Lect     16 --done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step05.md
 
@@ -82,13 +82,13 @@ https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Bo
 
 ------------
 
-Lect 17
+Lect 17  --done
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step06.md
 DispatcherServlet receives HTTP Request.
 
 ---------
 
-Lect 18
+Lect 18 ---DONE
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step07.md
 
@@ -105,7 +105,7 @@ check in network > Params values
 
 ---------
 
-Lect 19
+Lect 19   --done
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step08.zip
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step08.md
 
@@ -116,7 +116,7 @@ src/main/webapp/WEB-INF/jsp/login.jsp
 
 
 -------------------------------------------
-Lect 20
+Lect 20  --done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step09.md
 Autowired, @Component, @Service, @Repository, @Controller, @componenetScan
@@ -125,7 +125,7 @@ Autowired, @Component, @Service, @Repository, @Controller, @componenetScan
 
 -----------
 
-Lect 21
+Lect 21  ---done
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step10.md
 
  /src/main/java/com/in28minutes/springboot/web/model/Todo.java
@@ -153,7 +153,7 @@ Localhost:8080/login
   https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step12.md  
  
  -------------------
-Lect 23
+Lect 23  --done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step12.md
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step12.zip
@@ -166,15 +166,135 @@ src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
 
 
 ----------------
-Lect 24
+Lect 24  ---done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step13.md
 
+<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+
+-------------
+
+
+
+Lect 25
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step15.md
+
+src/main/webapp/WEB-INF/jsp/list-todos.jsp
+
+  <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>3.3.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+        
+
+
+
+---------
+Lect 26
+
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step15.md
+src/main/webapp/WEB-INF/jsp/list-todos.jsp
+
+-------
+Lect 27
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step16.md
+src/main/webapp/WEB-INF/jsp/list-todos.jsp
+src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
+
+delete the item
+------------
+
+Lect 28
+<form:form method="post" modelAttribute="todo">
+
+-----
+
+Lect 29
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step17.md
+
+src/main/webapp/WEB-INF/jsp/todo.jsp
+
+src/main/webapp/WEB-INF/jsp/list-todos.jsp
+
+--------
+Lect 31
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step18.md
+
+<dependency>    
+    <groupId>org.springframework.boot</groupId>    
+    <artifactId>spring-boot-starter-validation</artifactId>
+</dependency>
+
+src/main/java/com/in28minutes/springboot/web/model/Todo.java
+src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
+src/main/webapp/WEB-INF/jsp/todo.jsp ---form library
+src/main/java/com/in28minutes/springboot/web/model/Todo.java
+src/main/webapp/WEB-INF/jsp/todo.jsp
+
+default contructor
+
+--------
+Lect 32 & 33
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step19.md
+
+src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
+showupdateTodo
+updateTodo
+User
+src/main/webapp/WEB-INF/jsp/list-todos.jsp
+            <td><a type="button" class="btn btn-success"
+							href="/update-todo?id=${todo.id}">Update</a></td>
+src/main/java/com/in28minutes/springboot/web/service/TodoService.java
+    retrive
+    updateTodo
+    
+src/main/webapp/WEB-INF/jsp/todo.jsp
+  hidden
+
+-------------------
+
+Lect 34
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step20.md
 
 
 
 
+=======================
 
+Section 7
+
+
+Lect 105
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/step32.md
+
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+
+                            
 
 
 
