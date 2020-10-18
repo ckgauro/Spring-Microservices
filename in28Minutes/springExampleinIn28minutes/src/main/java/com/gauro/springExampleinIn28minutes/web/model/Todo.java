@@ -1,9 +1,17 @@
 package com.gauro.springExampleinIn28minutes.web.model;
 import java.util.Date;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Todo {
     private int id;
     private String user;
@@ -11,7 +19,7 @@ public class Todo {
     private Date targetDate;
     private boolean isDone;
 
-    public Todo(int id, String user, String desc, Date targetDate,
+  /*  public Todo(int id, String user, String desc, Date targetDate,
             boolean isDone) {
         super();
         this.id = id;
@@ -95,5 +103,5 @@ public class Todo {
                 "Todo [id=%s, user=%s, desc=%s, targetDate=%s, isDone=%s]", id,
                 user, desc, targetDate, isDone);
     }
-
+*/
 }
