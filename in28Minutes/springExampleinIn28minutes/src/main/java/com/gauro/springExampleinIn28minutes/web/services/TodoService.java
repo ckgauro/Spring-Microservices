@@ -3,6 +3,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Optional;
+
+import javax.validation.Valid;
 
 import org.springframework.stereotype.Service;
 
@@ -46,4 +49,16 @@ public class TodoService {
             }
         }
     }
+
+	public void updateTodo( Todo todo) {
+		todos.remove(todo);
+		todos.add(todo);
+		
+	}
+
+	public Todo retrieveTodo(int id) {
+		Optional<Todo> todo=todos.stream().filter(el->el.getId()==id).findFirst();
+		
+		return todo.isPresent()? todo.get():null;
+	}
 }

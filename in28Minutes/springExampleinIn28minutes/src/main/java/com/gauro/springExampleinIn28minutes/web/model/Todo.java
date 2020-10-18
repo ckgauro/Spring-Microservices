@@ -1,20 +1,27 @@
 package com.gauro.springExampleinIn28minutes.web.model;
 import java.util.Date;
 
+import javax.validation.constraints.Size;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class Todo {
     private int id;
     private String user;
+    
+    @Size(min = 10, message="Enter at least 10 Characters...")
     private String desc;
     private Date targetDate;
     private boolean isDone;
@@ -70,7 +77,9 @@ public class Todo {
     public void setDone(boolean isDone) {
         this.isDone = isDone;
     }
-
+   
+*/
+    
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -96,12 +105,10 @@ public class Todo {
         }
         return true;
     }
-
     @Override
     public String toString() {
         return String.format(
                 "Todo [id=%s, user=%s, desc=%s, targetDate=%s, isDone=%s]", id,
                 user, desc, targetDate, isDone);
     }
-*/
 }
