@@ -179,7 +179,7 @@ https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Bo
 
 
 
-Lect 25
+Lect 25  done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step15.md
 
@@ -200,14 +200,14 @@ src/main/webapp/WEB-INF/jsp/list-todos.jsp
 
 
 ---------
-Lect 26
+Lect 26 --done
 
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step15.md
 src/main/webapp/WEB-INF/jsp/list-todos.jsp
 
 -------
-Lect 27
+Lect 27  --done
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step16.md
 src/main/webapp/WEB-INF/jsp/list-todos.jsp
 src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
@@ -215,12 +215,12 @@ src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
 delete the item
 ------------
 
-Lect 28
+Lect 28 --done
 <form:form method="post" modelAttribute="todo">
 
 -----
 
-Lect 29
+Lect 29 --done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step17.md
 
@@ -229,7 +229,7 @@ src/main/webapp/WEB-INF/jsp/todo.jsp
 src/main/webapp/WEB-INF/jsp/list-todos.jsp
 
 --------
-Lect 31
+Lect 31  --Done 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step18.md
 
 <dependency>    
@@ -246,7 +246,7 @@ src/main/webapp/WEB-INF/jsp/todo.jsp
 default contructor
 
 --------
-Lect 32 & 33
+Lect 32 & 33 ---Done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step19.md
 
@@ -266,9 +266,88 @@ src/main/webapp/WEB-INF/jsp/todo.jsp
 
 -------------------
 
-Lect 34
+Lect 34 --done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step20.md
+
+src/main/webapp/WEB-INF/jsp/todo.jsp
+ add target date
+src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
+    initBindier
+    add target date
+    
+    ---Test it 
+    src/main/webapp/WEB-INF/jsp/list-todos.jsp    
+    
+update POM add bootstrap
+
+
+------------
+
+Lect 35 --Done
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step21.md
+
+src/main/webapp/WEB-INF/jsp/list-todos.jsp
+src/main/webapp/WEB-INF/jsp/common/navigation.jspf
+src/main/webapp/WEB-INF/jsp/common/footer.jspf
+src/main/webapp/WEB-INF/jsp/common/header.jspf
+
+update each jsp
+src/main/webapp/WEB-INF/jsp/login.jsp
+src/main/webapp/WEB-INF/jsp/todo.jsp
+src/main/webapp/WEB-INF/jsp/welcome.jsp
+
+
+
+----------------
+
+Lect 36 --ongoing
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step22.md
+src/main/java/com/in28minutes/springboot/web/controller/LoginController.java
+getLogging 
+
+remove login page login.jsp
+src/main/webapp/WEB-INF/jsp/common/navigation.jspf
+src/main/webapp/WEB-INF/jsp/common/navigation.jspf
+
+
+Use refractor method
+
+src/main/java/com/in28minutes/springboot/web/controller/TodoController.java
+
+private String getLoggedInUserName(ModelMap model) {
+		return (String) model.get("name");
+	}
+----------
+
+Lect 37
+
+auth.inMemoryAuthentication()
+            .passwordEncoder(NoOpPasswordEncoder.getInstance())
+        		.withUser("in28Minutes").password("dummy")
+                
+--------------
+
+Lect 38
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step23.md
+
+add to POM
+
+src/main/java/com/in28minutes/springboot/web/security/SecurityConfiguration.java
+
+defult user
+pwd
+
+using default security
+----------------------
+
+
+Lect 39
+
+LoginController --->
+
 
 
 
