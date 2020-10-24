@@ -302,7 +302,7 @@ src/main/webapp/WEB-INF/jsp/welcome.jsp
 
 ----------------
 
-Lect 36 --ongoing
+Lect 36 --done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step22.md
 src/main/java/com/in28minutes/springboot/web/controller/LoginController.java
@@ -330,7 +330,7 @@ auth.inMemoryAuthentication()
                 
 --------------
 
-Lect 38
+Lect 38  --ongoing
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step23.md
 
 add to POM
