@@ -8,6 +8,8 @@ import javax.validation.Valid;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -26,7 +28,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Controller
-@SessionAttributes("name")
+//@SessionAttributes("name")
 public class TodoController {
 	final static Logger logger = Logger.getLogger(TodoController.class);
 
@@ -49,7 +51,14 @@ public class TodoController {
 	}
 
 	private String getLoggedInUserName(ModelMap model) {
-		return (String) model.get("name");
+		
+		
+		//return (String) model.get("name");
+		Object principal=SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+		if(principal instanceof UserDetails) {
+			return ((UserDetails) principal).getUsername();
+		}
+		return principal.toString();
 	}
 
 	@RequestMapping(value = "/add-todo", method = RequestMethod.GET)

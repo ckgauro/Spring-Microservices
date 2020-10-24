@@ -330,7 +330,7 @@ auth.inMemoryAuthentication()
                 
 --------------
 
-Lect 38  --ongoing
+Lect 38  --Done
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step23.md
 
 add to POM
@@ -347,6 +347,16 @@ using default security
 Lect 39
 
 LoginController --->
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step24.md
+
+
+
+
+-----
+
+Lect 40
+
+https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step25.md
 
 
 
