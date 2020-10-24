@@ -3,7 +3,7 @@
 		<a href="" class="navbar-brand">Gauro</a>
 		<div class="navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li class="acive"><a href="/login">Home</a></li>
+				<li class="acive"><a href="/">Home</a></li>
 				<li><a href="/list-todos">Todos</a></li>
 			</ul>
 		</div>

@@ -28,34 +28,34 @@ public class LoginController {
 //		return "login";
 //	}
 
-	@RequestMapping(value="/login", method = RequestMethod.GET)
-	public String showLoginPage(){	
+	@RequestMapping(value="/", method = RequestMethod.GET)
+	public String showLoginPage(ModelMap model){	
+		model.put("name", "chandra");
 		
 		
-		
-		return "login";
-	}
-	
-	@RequestMapping(value="/login", method = RequestMethod.POST)
-	public String handleLogin(ModelMap model, @RequestParam String name, @RequestParam String password) {
-		//logger.info("handleLogin=====>");
-		log.info("Testing ----");
-		if(! loginService.validateUser(name,password)) {
-			model.put("errorMessage", "Invalid user "+name);
-			return "login";
-		}
-		
-		model.put("name", name);
-		model.put("password", password);
 		return "welcome";
-		
 	}
 	
-
-	@RequestMapping("/")
-	public String handler (Model model) {
-		model.addAttribute("msg",
-				"a jar packaging example");
-		return "myView";
-	}
+//	@RequestMapping(value="/login", method = RequestMethod.POST)
+//	public String handleLogin(ModelMap model, @RequestParam String name, @RequestParam String password) {
+//		//logger.info("handleLogin=====>");
+//		log.info("Testing ----");
+//		if(! loginService.validateUser(name,password)) {
+//			model.put("errorMessage", "Invalid user "+name);
+//			return "login";
+//		}
+//		
+//		model.put("name", name);
+//		model.put("password", password);
+//		return "welcome";
+//		
+//	}
+//	
+//
+//	@RequestMapping("/")
+//	public String handler (Model model) {
+//		model.addAttribute("msg",
+//				"a jar packaging example");
+//		return "myView";
+//	}
 }
