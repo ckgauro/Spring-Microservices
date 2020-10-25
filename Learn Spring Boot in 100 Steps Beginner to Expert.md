@@ -365,7 +365,8 @@ https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Bo
 
 Section 5
 
-Lect 56  ---Ongoing
+Lect 56  ---DOne
+https://github.com/ckgauro/Spring-Microservices/tree/main/in28Minutes/first-springboot-project
 
 https://github.com/in28minutes/SpringBootForBeginners/tree/master/05.Spring-Boot-Advanced
 
@@ -373,7 +374,7 @@ https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot
 
 ------------
 
-Lect 57 & 58
+Lect 57 & 58 --Done
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step02.md
 
 src/main/java/com/in28minutes/service/WelcomeService.java
@@ -382,7 +383,7 @@ src/main/java/com/in28minutes/springboot/WelcomeController.java
 
 
 ---------------------
-Lect 59
+Lect 59   ---Ongoing
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step03.md
 
