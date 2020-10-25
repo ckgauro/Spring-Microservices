@@ -383,7 +383,7 @@ src/main/java/com/in28minutes/springboot/WelcomeController.java
 
 
 ---------------------
-Lect 59   ---Ongoing
+Lect 59   ---Done
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step03.md
 
@@ -394,7 +394,7 @@ Open POM files
 spring boot auto configuration
 
 ---------
-Lect 60
+Lect 60 --done
 
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step04.md
@@ -406,7 +406,7 @@ click parent>depencies
 
 ------------------
 
-Lect 61
+Lect 61 --done
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step05.md
 
@@ -415,7 +415,7 @@ Spring Boot vs Spring
 
 -----------
 
-Lect 62
+Lect 62  --done
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step06.md
 src/main/java/com/in28minutes/springboot/model/Question.java
