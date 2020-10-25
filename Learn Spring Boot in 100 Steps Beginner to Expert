@@ -1,4 +1,6 @@
-https://github.com/in28minutes/spring-boot-master-class
+
+###https://github.com/in28minutes/spring-boot-master-class
+###https://github.com/ckgauro/Spring-Microservices/tree/main/in28Minutes/springExampleinIn28minutes
 
 Lect 9 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step01.md
@@ -344,7 +346,7 @@ using default security
 ----------------------
 
 
-Lect 39
+Lect 39  --Done
 
 LoginController --->
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step24.md
@@ -352,11 +354,178 @@ https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Bo
 
 
 
------
+-----  
 
-Lect 40
+Lect 40 --Done
 
 https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Boot-Web-Application/Step25.md
+
+
+==============
+
+Section 5
+
+Lect 56  ---Ongoing
+
+https://github.com/in28minutes/SpringBootForBeginners/tree/master/05.Spring-Boot-Advanced
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step01.md
+
+------------
+
+Lect 57 & 58
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step02.md
+
+src/main/java/com/in28minutes/service/WelcomeService.java
+src/main/java/com/in28minutes/springboot/WelcomeController.java
+
+
+
+---------------------
+Lect 59
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step03.md
+
+/src/main/resources/application.properties
+
+Open POM files
+
+spring boot auto configuration
+
+---------
+Lect 60
+
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step04.md
+
+check version
+click in each POM files of spring 
+
+click parent>depencies
+
+------------------
+
+Lect 61
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step05.md
+
+
+Spring Boot vs Spring
+
+-----------
+
+Lect 62
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step06.md
+src/main/java/com/in28minutes/springboot/model/Question.java
+src/main/java/com/in28minutes/springboot/model/Survey.java
+src/main/java/com/in28minutes/springboot/service/SurveyService.java
+
+------
+
+Lect 63 & 64
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step07.md
+
+
+src/main/java/com/in28minutes/springboot/controller/SurveyController.java
+
+--run application
+  right click in inscpect
+  
+  
+  debug it debug tool
+  ---CHeck in log
+  JacksonHttpmessageConverters  --Message converter
+  
+------------------
+
+Lect 65
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step08.md
+src/main/java/com/in28minutes/springboot/controller/SurveyController.java
+
+
+-------------
+
+Lect 66
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step09.md
+
+update POM
+
+----------------
+
+Lect 67
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step10.md
+
+src/main/java/com/in28minutes/springboot/controller/SurveyController.java
+        --@PostMapping("/surveys/{surveyId}/questions")
+
+
+Send data hrough POSTMAN
+send wrong server1 values
+
+----------
+Lect 68
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step11.md
+
+
+Check in video
+
+in header change accept   application/xml
+
+Now update 
+Update POM
+
+-----------
+
+Lect 69
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step12.md
+
+
+------------
+
+Lect 70
+
+[[Revise it]]
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step13.md
+
+update POM 
+update properties
+
+
+  http://localhost:8080/actuator/
+  
+  click on bean
+  
+  HAL broswer?
+
+
+-----------------
+
+Lect 71
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step14.md
+
+Update POM
+server.port
+
+------------
+
+Lect 72
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step15.md
+
+
+
+
+
+
+
+
 
 
 
@@ -407,6 +576,10 @@ https://github.com/in28minutes/spring-boot-master-class/blob/master/02.Spring-Bo
 
 
         
+
+
+
+
 
 
 
