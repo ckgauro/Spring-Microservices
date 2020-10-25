@@ -424,7 +424,7 @@ src/main/java/com/in28minutes/springboot/service/SurveyService.java
 
 ------
 
-Lect 63 & 64
+Lect 63 & 64  --Done
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step07.md
 
@@ -441,14 +441,14 @@ src/main/java/com/in28minutes/springboot/controller/SurveyController.java
   
 ------------------
 
-Lect 65
+Lect 65  --Done
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step08.md
 src/main/java/com/in28minutes/springboot/controller/SurveyController.java
 
 
 -------------
 
-Lect 66
+Lect 66  --Done
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step09.md
 
@@ -456,7 +456,7 @@ update POM
 
 ----------------
 
-Lect 67
+Lect 67  ---Done
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step10.md
 
@@ -468,7 +468,7 @@ Send data hrough POSTMAN
 send wrong server1 values
 
 ----------
-Lect 68
+Lect 68  --Done
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step11.md
 
@@ -482,14 +482,14 @@ Update POM
 
 -----------
 
-Lect 69
+Lect 69 --done
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step12.md
 
 
 ------------
 
-Lect 70
+Lect 70  --Done
 
 [[Revise it]]
 
@@ -508,7 +508,7 @@ update properties
 
 -----------------
 
-Lect 71
+Lect 71  --done
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step14.md
 
 Update POM
