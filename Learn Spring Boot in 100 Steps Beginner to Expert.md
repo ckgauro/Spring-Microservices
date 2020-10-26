@@ -516,20 +516,78 @@ server.port
 
 ------------
 
-Lect 72
+Lect 72  --done
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step15.md
 
+update properties
+src/main/resources/application.properties
+src/main/resources/application.yaml
+src/main/java/com/in28minutes/springboot/WelcomeService.java
+
+Check run configuration
+
+video
+
+http:localhost:8080/acutor/env
+  check env
+
+-----------------
+
+Lect 73  --done
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step16.md
+src/main/resources/application.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+
+
+
+Using -Dspring.profiles.active=prod in VM Arguments
+update main application
+Bean
+
+check in acutor bean
+
+-------------
+Lect 74  --done
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step17.md
+
+src/main/java/com/in28minutes/springboot/configuration/BasicConfiguration.java
+src/main/java/com/in28minutes/springboot/WelcomeController.java
+src/main/resources/application.properties
+
+Mapped "{[/]}
+
+
+http://localhost:8080/dynamic-configuration
+
+Also look at http://localhost:8080/actuator/#http://localhost:8080/configprops
 
 
 
 
 
 
+----------------
+
+Lect 75 & 76  --ongoing
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step18.md
+
+Update POM
+src/main/java/com/in28minutes/springboot/jpa/User.java
+src/main/java/com/in28minutes/springboot/jpa/UserCommandLineRunner.java
+src/main/java/com/in28minutes/springboot/jpa/UserRepository.java
 
 
+--------------
 
+Lect 77
 
+Make the database URL a constant by configuring this in application.properties.
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.data.jpa.repositories.bootstrap-mode=default
 
 
 =======================
