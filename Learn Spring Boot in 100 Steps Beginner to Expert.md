@@ -571,7 +571,7 @@ Also look at http://localhost:8080/actuator/#http://localhost:8080/configprops
 
 ----------------
 
-Lect 75 & 76  --ongoing
+Lect 75 & 76  --Done
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step18.md
 
 Update POM
@@ -582,7 +582,7 @@ src/main/java/com/in28minutes/springboot/jpa/UserRepository.java
 
 --------------
 
-Lect 77
+Lect 77  --Done
 
 Make the database URL a constant by configuring this in application.properties.
 
