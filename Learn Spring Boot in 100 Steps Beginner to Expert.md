@@ -589,6 +589,51 @@ Make the database URL a constant by configuring this in application.properties.
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.data.jpa.repositories.bootstrap-mode=default
 
+-------
+Lect 78  --Done
+
+http://localhost:8080/h2-console
+Look at H2 Console : http://localhost:8080/h2-console
+Use db url jdbc:h2:mem:testdb
+
+src/main/java/com/in28minutes/springboot/jpa/UserRepository.java
+src/main/java/com/in28minutes/springboot/jpa/UserCommandLineRunner.java
+
+------------
+
+Lect 79  --ongoing
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step20.md
+
+
+Update POM
+
+src/main/java/com/in28minutes/springboot/jpa/UserRestRepository.java
+GET POST
+
+-----------------
+Lect 80 & 81
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step21.md
+
+Update POM
+
+TDD test
+
+/src/test/java/com/in28minutes/springboot/controller/SurveyControllerIT.java
+
+TestRestTemplate   .getForObject(url, String.class); 
+check in video 82 2nd 
+
+
+-----------
+
+
+Lect 82
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step22.md
+src/test/java/com/in28minutes/springboot/controller/SurveyControllerIT.java
+
+
+
 
 =======================
 
