@@ -601,7 +601,7 @@ src/main/java/com/in28minutes/springboot/jpa/UserCommandLineRunner.java
 
 ------------
 
-Lect 79  --ongoing
+Lect 79  --DOne
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step20.md
 
 
@@ -609,9 +609,18 @@ Update POM
 
 src/main/java/com/in28minutes/springboot/jpa/UserRestRepository.java
 GET POST
+Introduction to Spring Data Rest
+Hit http://localhost:8080/users in POSTMAN
+http://localhost:8080/users/1
+http://localhost:8080/users/?size=4
+http://localhost:8080/users/?sort=name,desc
+@Param("role")
+http://localhost:8080/users/search/findByRole?role=Admin
+Good for quick prototype! Be cautious about using this in Big applications!
+
 
 -----------------
-Lect 80 & 81
+Lect 80 & 81 __ongoing
 
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step21.md
 
@@ -631,6 +640,58 @@ check in video 82 2nd
 Lect 82
 https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step22.md
 src/test/java/com/in28minutes/springboot/controller/SurveyControllerIT.java
+
+---------
+
+Lect 83
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step23.md
+src/test/java/com/in28minutes/springboot/controller/SurveyControllerIT.java
+
+check videos
+
+-----------
+
+Lect 84 & 85
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step24.md
+src/test/java/com/in28minutes/springboot/controller/SurveyControllerIT.java
+src/test/java/com/in28minutes/springboot/controller/SurveyControllerTest.java
+
+
+------
+
+Lect 86
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step25.md
+src/test/java/com/in28minutes/springboot/controller/SurveyControllerTest.java
+
+-------
+Lect 87
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step26.md
+
+POM
+
+Check in POST man got through video
+
+-------------------------
+
+Lect 88
+
+auth.inMemoryAuthentication().passwordEncoder(org.springframework.security.crypto.password.NoOpPasswordEncoder.getInstance()).withUser("user1").password("secret1")			.roles("USER").and().withUser("admin1").password("secret1")
+				.roles("USER", "ADMIN");
+                
+---------------
+
+Lect 89
+
+https://github.com/in28minutes/SpringBootForBeginners/blob/master/05.Spring-Boot-Advanced/Step27.md
+
+src/main/java/com/in28minutes/springboot/security/SecurityConfig.java
+-------
+
+Lect 90
+https://www.udemy.com/course/spring-boot-tutorial-for-beginners/learn/lecture/17061578#questions
+src/main/java/com/in28minutes/springboot/controller/SurveyController.java
 
 
 
